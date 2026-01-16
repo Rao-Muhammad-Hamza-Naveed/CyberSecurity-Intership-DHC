@@ -1,0 +1,85 @@
+# Week 2 – Security Measures Implementation & Analysis
+
+## Objective
+To analyze common web application vulnerabilities
+using OWASP Juice Shop and demonstrate how
+industry-standard security measures mitigate them.
+
+---
+
+## 1. Input Validation & Sanitization
+**Concept:** validator.js
+
+Input validation prevents attackers from injecting
+malicious payloads into application inputs.
+
+### Demonstration
+A script injection payload was entered into the
+search functionality of the application, resulting
+in script execution.
+
+### Mitigation Explanation
+In a production environment, libraries such as
+validator.js validate and sanitize inputs before
+processing.
+
+**Evidence:**  
+`screenshots/02-xss-input-test.png`
+
+---
+
+## 2. Password Hashing
+**Concept:** bcrypt
+
+Storing passwords in plaintext exposes users to
+credential theft in case of database compromise.
+
+### Explanation
+bcrypt applies a one-way hashing function, ensuring
+passwords cannot be reversed.
+
+**Evidence:**  
+`screenshots/03-login-request.png`
+
+---
+
+## 3. Token-Based Authentication
+**Concept:** JSON Web Tokens (JWT)
+
+JWT enables stateless authentication by issuing a
+signed token after successful login.
+
+### Observation
+The authentication token is stored in the browser
+after login.
+
+### Risk & Mitigation
+Improper token storage may lead to token theft.
+Secure storage mechanisms and expiration policies
+are recommended.
+
+**Evidence:**  
+`screenshots/04-jwt-token.png`
+
+---
+
+## 4. Secure HTTP Headers
+**Concept:** Helmet.js
+
+HTTP security headers protect applications against
+clickjacking, XSS, and MIME-type attacks.
+
+### Explanation
+Helmet configures headers such as:
+- Content-Security-Policy
+- X-Frame-Options
+
+**Evidence:**  
+`screenshots/05-security-headers.png`
+
+---
+
+## Conclusion
+This task demonstrates the importance of applying
+security best practices to reduce common web
+application vulnerabilities.

@@ -1,0 +1,29 @@
+Week 6 – Fixes & Hardening Report
+
+1. Security Headers
+- Implemented Content Security Policy (CSP)
+- Enabled X-Content-Type-Options
+- Enabled X-Frame-Options
+- Enabled Strict-Transport-Security (HSTS)
+
+2. Authentication & Access Control
+- Rate limiting enabled to prevent brute-force attacks
+- Strong password policy enforced
+- Session management reviewed
+
+3. Vulnerability Mitigation
+- Reflected and stored XSS vulnerabilities identified via OWASP ZAP
+- Input validation and output encoding applied
+- Sensitive endpoints restricted
+
+4. Dependency Security
+- npm audit used to identify vulnerable packages
+- Outdated dependencies updated
+
+5. Server Hardening
+- Unnecessary services disabled
+- Firewall status reviewed via Lynis
+- Logging and monitoring verified
+
+Conclusion:
+The identified vulnerabilities were reviewed and appropriate hardening measures were applied to improve the overall security posture of the application.

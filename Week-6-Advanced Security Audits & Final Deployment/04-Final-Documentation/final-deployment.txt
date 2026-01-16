@@ -1,0 +1,28 @@
+Week 6 – Secure Deployment Summary
+
+1. Secure Deployment Strategy
+- Application deployed using secure configuration
+- Environment variables used for sensitive data
+- Debug mode disabled in production
+
+2. Automatic Security Updates
+- System updates enabled
+- Dependency vulnerability scanning performed regularly
+
+3. Container Security (Planned)
+- Docker images scanned for vulnerabilities
+- Minimal base images recommended
+- Containers run with least privilege
+
+4. Penetration Testing
+- OWASP ZAP used for automated testing
+- Nikto used for server misconfiguration testing
+- Lynis used for system-level auditing
+
+5. Final Assessment
+- Vulnerabilities identified and documented
+- Security improvements applied
+- Application prepared for secure deployment
+
+Conclusion:
+The application was successfully audited, hardened, and prepared for secure deployment following industry best practices.

@@ -1,0 +1,31 @@
+# Week 1 – Security Assessment Report
+
+## Introduction
+The objective of this task is to perform a basic security assessment of a Node.js-based web application and identify common web vulnerabilities.
+
+## Application Overview
+The application used for this assessment is OWASP Juice Shop. It is a deliberately vulnerable Node.js application designed for security testing and awareness.
+
+## Methodology
+Manual testing techniques were used to assess the application. Common payloads were injected into user input fields to test for vulnerabilities such as Cross-Site Scripting (XSS) and SQL Injection.
+
+## Vulnerabilities Tested
+
+### 1. Cross-Site Scripting (XSS)
+Stored XSS was tested through the feedback feature. A JavaScript payload was injected and successfully executed when the feedback page was reloaded.
+
+### 2. SQL Injection
+SQL Injection payloads were tested on the login form. Authentication bypass was attempted using common SQL payloads.
+
+### 3. Weak Authentication
+Weak passwords were accepted during the registration process, indicating a lack of strong password enforcement.
+
+## Evidence
+Screenshots related to the testing and findings are provided in the screenshots folder.
+
+## Tools Used
+- Web Browser
+- Manual Testing
+
+## Conclusion
+The assessment revealed several security weaknesses, including Stored XSS and weak authentication mechanisms. These issues highlight the need for secure input handling and proper validation.

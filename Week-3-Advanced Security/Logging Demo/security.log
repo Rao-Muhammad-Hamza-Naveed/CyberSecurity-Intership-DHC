@@ -1,0 +1,3 @@
+{"level":"info","message":"Application started"}
+{"level":"warn","message":"Invalid login attempt detected"}
+{"level":"error","message":"Multiple failed login attempts"}

@@ -1,0 +1,8 @@
+OWASP Top 10 – Week 6
+
+✔ Injection – Tested via OWASP ZAP & Juice Shop
+✔ Broken Authentication – Login flaws tested
+✔ Sensitive Data Exposure – Security headers checked
+✔ XSS – Tested via ZAP
+✔ Vulnerable Components – npm audit planned
+✔ Logging & Monitoring – Lynis audit reviewed
