@@ -6,7 +6,7 @@ This repository contains the complete work for a **6-week Cybersecurity Internsh
 
 ## Repository Structure
 
-CyberSecurity-Intership-DHC/
+  CyberSecurity-Intership-DHC
 │
 ├── Week-1-Security Assessment
 ├── Week-2-Security-Measures
